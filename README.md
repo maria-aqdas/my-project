@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License" />
 </p>
 
-An interactive, menu-driven Point of Sale (POS) and inventory management CLI application built with Python. Developed to master essential Python data structures—specifically **Dictionaries**, **2D Lists (Matrices)**, and **Control Flow Logic**.
+An interactive, menu-driven Point of Sale (POS) and inventory management CLI application built with Python. Developed to master essential Python data structures specifically **Dictionaries**, **2D Lists (Matrices)**, and **Control Flow Logic**.
 
 ---
 
