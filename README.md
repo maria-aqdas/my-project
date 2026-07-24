@@ -1,45 +1,29 @@
 # ☕ Smart Cafe POS & Inventory System
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
-[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/maria-aqdas/my-project?style=social)](https://github.com/maria-aqdas/my-project)
+<p center>
+  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License" />
+</p>
+
+An interactive, menu-driven Point of Sale (POS) and inventory management CLI application built with Python. Developed to master essential Python data structures—specifically **Dictionaries**, **2D Lists (Matrices)**, and **Control Flow Logic**.
 
 ---
 
-## 📌 Overview
+## 🛠️ System Architecture
 
-A short, compelling description of what this project does, the problem it solves, or the data analysis/machine learning model it demonstrates.
-
-> **Note:** Brief note or highlight about the current stage of development or key findings.
-
----
-
-## ✨ Key Features
-
-* **Data Analysis & Visualization:** In-depth exploration and visualization of key metrics.
-* **Machine Learning Pipeline:** Preprocessing, model training, and evaluation steps.
-* **Interactive Notebook:** Easy-to-follow workflow inside Jupyter Notebook.
-
----
-
-## 🛠️ Tech Stack & Dependencies
-
-* **Language:** Python
-* **Environment:** Jupyter Notebook / Google Colab
-* **Key Libraries:** `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-Make sure you have Python 3.8+ installed on your system.
-
-### Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/maria-aqdas/my-project.git](https://github.com/maria-aqdas/my-project.git)
-   cd my-project
+```text
+               ┌─────────────────────────────────────────┐
+               │         CAFE MENU (Dictionary)          │
+               │  Fixed Products & Unit Price Mapping    │
+               └────────────────────┬────────────────────┘
+                                    │
+                                    ▼
+               ┌─────────────────────────────────────────┐
+               │         INVENTORY (2D Matrix)           │
+               │   [ [Name, Price, Quantity], ... ]      │
+               └────────────────────┬────────────────────┘
+                                    │
+  ┌───────────────────┬─────────────┴───────┬───────────────────┐
+  ▼                   ▼                     ▼                   ▼
+[1] View Cart    [2] Add Product    [3] Remove Item     [4] Bill Calculation
